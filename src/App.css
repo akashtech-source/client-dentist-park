@@ -1,6 +1,27 @@
 .App {
   text-align: center;
 }
+:link {
+  text-decoration: none;
+}
+.text-bold {
+  font-weight: 600;
+}
+.trigger-button:hover {
+  color: #61dafb;
+}
+body {
+  overflow-x: hidden;
+}
+.actionBtn {
+  position: relative;
+  top: 7px;
+}
+.actionBtn:hover {
+  color: #fa009a;
+}
+
+
 
 .App-logo {
   height: 40vmin;
