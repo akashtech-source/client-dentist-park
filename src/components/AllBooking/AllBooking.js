@@ -4,7 +4,7 @@ import Sidebar from '../Dashboard/Dashboard/Sidebar/Sidebar'
 
 const AllBooking = () => {
     const [booking, setBooking] = useState([])
-    const url = `http://localhost:5000/booking`;
+    const url = `https://pure-castle-85670.herokuapp.com/booking`;
     useEffect(() => {
         fetch(url)
         .then(res => res.json())

@@ -5,7 +5,7 @@ import Sidebar from '../Dashboard/Dashboard/Sidebar/Sidebar';
 
 const TotalService = () => {
     const [services, setServices] = useState([])
-    const url = `http://localhost:5000/service`;
+    const url = `https://pure-castle-85670.herokuapp.com/service`;
     useEffect(() => {
         fetch(url)
         .then(res => res.json())

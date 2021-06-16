@@ -16,7 +16,7 @@ const AddService = () => {
             category: data.category,
             imageURL: imageURL
         }
-        const url = `http://localhost:5000/addService`
+        const url = `https://pure-castle-85670.herokuapp.com/addService`
 
         console.log(serviceData)
         fetch(url, {

@@ -16,7 +16,7 @@ const Dashboard = () => {
             service: service.name,
             book: new Date().toDateString()
         };
-        const url = `http://localhost:5000/addBooking`
+        const url = `https://pure-castle-85670.herokuapp.com/addBooking`
         console.log(bookingData);
         fetch(url, {
             method: 'POST',
@@ -31,7 +31,7 @@ const Dashboard = () => {
     const {id} = useParams()
    
     const [service, setService] = useState({});
-    const url = `http://localhost:5000/service/${id}`;
+    const url = `https://pure-castle-85670.herokuapp.com/service/${id}`;
     useEffect(() => {
         fetch(url)
         .then(res => res.json())
